@@ -1,1 +1,105 @@
-# TRUSTED-PARTNERS-mtechfiber-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Partners</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #0f172a;
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 40px 20px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #cbd5e1;
+}
+
+.logo-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 30px;
+    padding: 40px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.logo-card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 15px;
+    transition: 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px; /* fixed height para pantay lahat */
+}
+
+.logo-card img {
+    max-height: 80px; /* control logo height */
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.logo-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+.logo-card img {
+    max-width: 100px;
+    height: auto;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Our Trusted Partners</h1>
+    <p>Powering your connection with reliable services</p>
+</header>
+
+<div class="logo-container">
+
+    <div class="logo-card">
+        <img src="Kuya Big'z.png" alt="Logo 1">
+    </div>
+
+    <div class="logo-card">
+        <img src="Anthony Monloy.png" alt="Logo 2">
+    </div>
+
+    <div class="logo-card">
+        <img src="Daniel Quirido.png" alt="Logo 3">
+    </div>
+
+    <div class="logo-card">
+        <img src="Senobga Xenohd.png" alt="Logo 4">
+    </div>
+
+    <div class="logo-card">
+        <img src="Jon Skytech.png" alt="Logo 5">
+    </div>
+
+    <div class="logo-card">
+        <img src="Del Valle.png" alt="Logo 5">
+    </div>
+
+
+</div>
+
+</body>
+</html>
