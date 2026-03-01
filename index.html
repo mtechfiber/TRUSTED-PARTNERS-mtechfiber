@@ -46,12 +46,23 @@ p {
     align-items: center;
     justify-content: center;
     height: 100px;
+    transition: transform 0.3s ease;
+}
+
+/* Hover animation (NO GLOW) */
+.logo-card:hover {
+    transform: translateY(-8px) scale(1.05);
 }
 
 .logo-card img {
     max-height: 80px;
     max-width: 100%;
     object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.logo-card:hover img {
+    transform: scale(1.08);
 }
 
 /* Footer */
